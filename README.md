@@ -1,34 +1,34 @@
 # N-Queen
 Objective
 1. To arrange the N queens on a NxN Chess Board in such a way that No Queen
-attacks any other queen
+attacks any other queen.\
 2. Generate a large number of N-Queen instances and solve them by Hill Climbing, Hill
-Climbing with Random Restart and Simulated Annealing Algorithms
+Climbing with Random Restart and Simulated Annealing Algorithms.\
 3. Compare the three algorithms in terms of Search Cost and Percentage of Solved
-Problems
+Problems.\
 
-Algorithms used
+Algorithms used\
 
 I.
 Simple Hill Climbing
 The Simple Hill Climbing Algorithm is a local search algorithm in which the
 movement is in the direction of increasing elevation or value until it reaches the
 peak or provides the best possible solution for the problem.
-Algorithm for Simple Hill Climbing
+Algorithm for Simple Hill Climbing\
 Step 1. Evaluate the initial state. If it is a goal state then stop and return
-success. Otherwise, make initial state as current state.
+success. Otherwise, make initial state as current state.\
 Step 2. Loop until the solution state is found or there are no new operators
-present which can be applied to the current state.
+present which can be applied to the current state.\
 a. Select a state that has not been yet applied to the current state and
-apply it to produce a new state.
-b. Perform these to evaluate new state
+apply it to produce a new state.\
+b. Perform these to evaluate new state\
 i.If the current state is a goal state, then stop and return
-success.
+success.\
 ii.If it is better than the current state, then make it current
-state and proceed further.
+state and proceed further.\
 iii.If it is not better than the current state, then continue in the
-loop until a solution is found.
-Step 3. Exit
+loop until a solution is found.\
+Step 3. Exit\
 
 
 II.
