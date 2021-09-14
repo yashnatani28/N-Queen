@@ -10,7 +10,7 @@ Problems.
 Algorithms used
 
 I.
-<b>Simple Hill Climbing</b>
+<b>Simple Hill Climbing</b>\
 The Simple Hill Climbing Algorithm is a local search algorithm in which the
 movement is in the direction of increasing elevation or value until it reaches the
 peak or provides the best possible solution for the problem.
@@ -32,7 +32,7 @@ Step 3. Exit
 
 
 II.
-<b>Hill Climbing with Random Restart</b>
+<b>Hill Climbing with Random Restart</b>\
 In hill climbing with Random Restart, many hill climbing searches are done from
 randomly generated initial states. Each search is done until it stops or doesn’t show
 any progress.\
@@ -56,7 +56,7 @@ problem).\
 Step 5. Output & Exit
 
 III.
-<b>Hill Climbing with Simulated Annealing</b>
+<b>Hill Climbing with Simulated Annealing</b>\
 Simulated Annealing is a technique of optimization which is based on exploration. It
 is a probabilistic technique for approximating the global optimum of the heuristic
 function rather than local optima.\
